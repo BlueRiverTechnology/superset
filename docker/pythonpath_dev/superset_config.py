@@ -92,3 +92,7 @@ try:
     )
 except ImportError:
     logger.info("Using default Docker config...")
+
+# TODO: create a MESA mapbox account.
+# MAPBOX_API_KEY = ''
+ENABLE_JAVASCRIPT_CONTROLS = True
